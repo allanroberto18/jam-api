@@ -17,7 +17,7 @@ class Invitation
      * @var integer|null $id
      * @ORM\Id()
      * @ORM\GeneratedValue(strategy="AUTO")
-     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Column(name="id", type="integer")
      */
     private $id;
 
@@ -35,7 +35,7 @@ class Invitation
 
     /**
      * @var integer $state
-     * @ORM\Column(name="state", type="integer", nullable=false)
+     * @ORM\Column(name="state", type="integer")
      */
     private $state;
 

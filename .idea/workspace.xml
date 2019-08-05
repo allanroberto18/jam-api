@@ -2,12 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d4acaa-f7ff-4b8a-8c8d-50f1ccbc2f8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/components/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/invitation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/invitation/old.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Repository/DataFixturesTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Repository/InvitationRepositoryTest.php.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Repository/UserRepositoryTest.php.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Repository/UserTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Repository/UsersRepositoryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08542f15d10dad147867ce3a6cb66f2f28b0bbd3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08542f15d10dad147867ce3a6cb66f2f28b0bbd3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e977a2ebbf1aca2a9c86187f5838668f423667e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e977a2ebbf1aca2a9c86187f5838668f423667e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/446a3d21ac03c2ea8247445b6f3eea57602024d4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/446a3d21ac03c2ea8247445b6f3eea57602024d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca7b22d4e484fc6899d1d33130e5fe6f45b946a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca7b22d4e484fc6899d1d33130e5fe6f45b946a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85648976e81472e80d65e26660a9c860fa67bee6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85648976e81472e80d65e26660a9c860fa67bee6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e763fbd347ae06a1698a8276744c4c4a04bdc37" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a181b453ab00828bc01dc2ee753d41ea2da2d8e4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a181b453ab00828bc01dc2ee753d41ea2da2d8e4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f205eb5b49768e2f1ca92241b8953ea3c97f87b1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f205eb5b49768e2f1ca92241b8953ea3c97f87b1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/api/InvitationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/api/InvitationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/user/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Invitation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Invitation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20190803113237.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20190803113237.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20190803113240.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20190803113240.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Repository/InvitationRepositoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Repository/UserRepositoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" xdebug_debug_port="9001" listening_started="true" />
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
   <component name="PhpServers">
     <servers>
       <server host="http://127.0.0.1" id="3dc69114-8377-4a7d-8c69-53083750e5f7" name="local" port="8000" use_path_mappings="true">
@@ -37,6 +72,7 @@
         </path_mappings>
       </server>
       <server host="127.0.0.1:8000" id="384a11c8-20c5-4529-905c-af3d8a8b51e6" name="127.0.0.1:8000" port="8000" />
+      <server host="127.0.0.1" id="dc62f691-7665-4222-9cc7-f638c7551dee" name="127.0.0.1" port="8000" />
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
@@ -134,6 +170,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/vendor/symfony/web-server-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1OpynB2WnhKpWDigAe9wNzp92rw" />
@@ -141,7 +179,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Repository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/components/invitation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,16 +188,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/components/invitation" />
+      <recent name="$PROJECT_DIR$/tests/Repository" />
+      <recent name="$PROJECT_DIR$/config/packages" />
+      <recent name="$PROJECT_DIR$/src/Controller/api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/packages/test" />
+      <recent name="$PROJECT_DIR$/config/packages" />
       <recent name="$PROJECT_DIR$/src/Controller/api" />
       <recent name="$PROJECT_DIR$/assets/js/components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/Repository" />
-      <recent name="$PROJECT_DIR$/src/Controller/api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,7 +216,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.phpunit.xml.dist">
+  <component name="RunManager" selected="PHPUnit.ListUsersTest.testGetUserById">
+    <configuration name="ListUsersTest.testGetUserById" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Repository\ListUsersTest" file="$PROJECT_DIR$/tests/Repository/UsersRepositoryTest.php" method="testGetUserById" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="Service" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/src/Service" />
       <method v="2" />
@@ -183,6 +229,11 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ListUsersTest.testGetUserById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -200,7 +251,12 @@
       <workItem from="1564816667137" duration="16340000" />
       <workItem from="1564930251080" duration="18656000" />
       <workItem from="1564988453057" duration="1206000" />
-      <workItem from="1564989723080" duration="776000" />
+      <workItem from="1564989723080" duration="1126000" />
+      <workItem from="1565002159438" duration="3634000" />
+      <workItem from="1565015447825" duration="2716000" />
+      <workItem from="1565020342740" duration="520000" />
+      <workItem from="1565025780935" duration="1568000" />
+      <workItem from="1565027581568" duration="15809000" />
     </task>
     <servers />
   </component>
@@ -224,7 +280,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/tests/Repository/InvitationRepositoryTest.php</url>
+          <url>file://$PROJECT_DIR$/tests/Repository/InvitationRepositoryTest.php.old</url>
           <line>58</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -232,6 +288,36 @@
           <url>file://$PROJECT_DIR$/src/Controller/api/InvitationController.php</url>
           <line>144</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Repository/UserTest.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Repository/DataFixturesTestCase.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Repository/UsersRepositoryTest.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/tests/Repository/UsersRepositoryTest.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Repository/InvitationRepository.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Controller/api/InvitationController.php</url>
+          <line>107</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

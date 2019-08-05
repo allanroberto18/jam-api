@@ -17,6 +17,11 @@ services:
     App\Repository\:
         resource: '../src/Repository'
 
+
+    App\DataFixtures\:
+        resource: '../src/DataFixtures'
+        tags: ['doctrine.fixture.orm']
+
     App\Controller\:
         resource: '../src/Controller'
         tags: ['controller.service_arguments']

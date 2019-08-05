@@ -1,7 +1,1 @@
-doctrine:
-    dbal:
-        default_connection: default
-        connections:
-            driver: pdo_sqlite
-            url: 'sqlite:///%kernel.project_dir%/var/test.db3'
-            # memory: true
+

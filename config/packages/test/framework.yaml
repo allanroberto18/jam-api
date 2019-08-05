@@ -1,3 +1,11 @@
+doctrine:
+    dbal:
+        default_connection: test
+        connections:
+            test:
+                driver: 'pdo_sqlite'
+                path: '%kernel.project_dir%/var/test.db'
+
 framework:
     test: true
     session:

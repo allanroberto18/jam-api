@@ -25,13 +25,13 @@ class User
 
     /**
      * @var string|null $userName
-     * @ORM\Column(name="user_name", type="string", length=255, nullable=false)
+     * @ORM\Column(name="user_name", type="string", length=255)
      */
     private $userName;
 
     /**
      * @var string|null $email
-     * * @ORM\Column(name="email", type="string", length=255, nullable=false)
+     * * @ORM\Column(name="email", type="string", length=255)
      */
     private $email;
 

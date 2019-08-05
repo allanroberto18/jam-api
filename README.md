@@ -1,5 +1,10 @@
 ## To start application
 
+requirements
+* php 7.2
+* yarn 1.17
+* docker && docker-compose
+
 ```
 docker-compose up
 
@@ -11,7 +16,7 @@ yarn install
 php bin/console doctrine:migrations:migrate
 
 # populate database (first execution)
-php bin/console doctrine:fixtures:load
+php bin/console doctrine:fixtures:load --append
 
 php bin/console server:run
 

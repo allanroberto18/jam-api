@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route(path="/", methods={"GET"})
+     * @Route("/{reactRouting}", name="index", defaults={"reactRouting": null})
      * @return Response
      */
     public function getIndex(): Response

@@ -28,9 +28,9 @@ final class Version20190803113240 extends AbstractMigration
     public function up(Schema $schema) : void
     {
         $table = $schema->createTable('invitations');
-        $table->addColumn('id', Type::INTEGER, [ 'autoincrement' => true, 'nullable' => false ]);
-        $table->addColumn('user_sender_id', Type::INTEGER, [ 'nullable' => false ]);
-        $table->addColumn('user_invited_id', Type::INTEGER, [ 'nullable' => false ]);
+        $table->addColumn('id', Type::INTEGER, [ 'autoincrement' => true ]);
+        $table->addColumn('user_sender_id', Type::INTEGER, []);
+        $table->addColumn('user_invited_id', Type::INTEGER, []);
         $table->addColumn('state', Type::INTEGER, [ 'default' => 0 ]);
         $table->setPrimaryKey(['id']);
 

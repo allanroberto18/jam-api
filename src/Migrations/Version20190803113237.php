@@ -27,9 +27,9 @@ final class Version20190803113237 extends AbstractMigration
     public function up(Schema $schema) : void
     {
         $table = $schema->createTable('users');
-        $table->addColumn('id', Type::INTEGER, [ 'autoincrement' => true, 'nullable' => false ]);
-        $table->addColumn('user_name', Type::STRING, [ 'nullable' => false ]);
-        $table->addColumn('email', Type::STRING, [ 'nullable' => false ]);
+        $table->addColumn('id', Type::INTEGER, [ 'autoincrement' => true]);
+        $table->addColumn('user_name', Type::STRING, []);
+        $table->addColumn('email', Type::STRING, []);
         $table->setPrimaryKey(['id']);
     }
 
