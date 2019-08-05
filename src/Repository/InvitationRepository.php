@@ -4,9 +4,9 @@ declare(strict_types=1);
 namespace App\Repository;
 
 use App\Entity\Invitation;
+use App\Entity\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
-use Hoa\Stream\Test\Unit\IStream\In;
 
 class InvitationRepository extends ServiceEntityRepository implements InvitationRepositoryInterface
 {
@@ -79,7 +79,9 @@ class InvitationRepository extends ServiceEntityRepository implements Invitation
         $invitation = new Invitation($userSender, $userInvited);
 
         $this->getEntityManager()->persist($invitation);
-        $this->getEntityManager()->flush(0);
+        $this->getEntityManager()->flush();
+
+        return $invitation;
     }
 
 
