@@ -2,16 +2,29 @@
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.0.8",
+        "php": "^7.2.8",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/doctrine-bundle": "^1.11",
+        "doctrine/doctrine-migrations-bundle": "^2.0",
+        "doctrine/orm": "^2.6",
+        "friendsofsymfony/rest-bundle": "^2.5",
+        "jms/serializer-bundle": "^3.4",
+        "nelmio/api-doc-bundle": "^3.4",
         "symfony/console": "3.4.*",
         "symfony/dotenv": "3.4.*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "3.4.*",
+        "symfony/property-access": "3.4.*",
+        "symfony/serializer": "3.4.*",
+        "symfony/twig-bundle": "3.4.*",
+        "symfony/validator": "3.4.*",
+        "symfony/webpack-encore-bundle": "^1.6",
         "symfony/yaml": "3.4.*"
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.2",
+        "symfony/phpunit-bridge": "^4.3"
     },
     "config": {
         "preferred-install": {

@@ -1,0 +1,12 @@
+services:
+  app.repositories.user:
+    class: App\Repository\UserRepository
+    factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - '@Doctrine\Common\Persistence\ManagerRegistry'
+
+  app.repositories.invitation:
+    class: App\Repository\InvitationRepository
+    factory: ['@doctrine.orm.default_entity_manager', getRepository]
+    arguments:
+      - '@Doctrine\Common\Persistence\ManagerRegistry'

@@ -1,0 +1,25 @@
+version: '3.1'
+services:
+  db:
+    image: mariadb
+    container_name: ${APP_NAME}-db
+    environment:
+      MYSQL_DATABASE: ${DATABASE_NAME}
+      MYSQL_ROOT_PASSWORD: ${DATABASE_ROOT_PASSWORD}
+      MYSQL_USER: ${DATABASE_USER}
+      MYSQL_PASSWORD: ${DATABASE_PASSWORD}
+    ports:
+      - 3306:3306
+    networks:
+      - jam
+
+  adminer:
+    image: adminer
+    container_name: ${APP_NAME}-adminer
+    ports:
+      - 8080:8080
+    networks:
+      - jam
+
+networks:
+  jam:

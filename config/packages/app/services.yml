@@ -1,0 +1,10 @@
+services:
+  app.services.user:
+    class: App\Service\UserService
+    arguments:
+      - '@app.repositories.user'
+
+  app.services.invitation:
+    class: App\Service\InvitationService
+    arguments:
+      - '@app.repositories.invitation'

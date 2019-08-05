@@ -1,0 +1,10 @@
+services:
+  app.controllers.user:
+    class: App\Controller\api\UserController
+    arguments:
+      - '@app.services.user'
+
+  app.controllers.invitation:
+    class: App\Controller\api\InvitationController
+    arguments:
+      - '@app.services.invitation'
