@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Repository;
 
-use App\Entity\Invitantion;
+use App\Entity\Invitation;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
 
@@ -15,12 +15,12 @@ class InvitationRepository extends ServiceEntityRepository implements Invitation
      */
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Invitantion::class);
+        parent::__construct($registry, Invitation::class);
     }
 
     /**
      * @param integer $userId
-     * @return Invitantion[]
+     * @return Invitation[]
      */
     public function getInvitationsBySender(int $userId): array
     {
@@ -35,7 +35,7 @@ class InvitationRepository extends ServiceEntityRepository implements Invitation
 
     /**
      * @param integer $userId
-     * @return Invitantion[]
+     * @return Invitation[]
      */
     public function getInvitationsByInvited(int $userId): array
     {
@@ -55,7 +55,7 @@ class InvitationRepository extends ServiceEntityRepository implements Invitation
      */
     public function updateStateOfInvitation(int $invitation, int $state): void
     {
-        /** @var Invitantion $invitation */
+        /** @var Invitation $invitation */
         $invitation = $this->find($invitation);
         if (empty($invitation) === true) {
             throw new \Exception('Invitation not found');

@@ -1,4 +1,4 @@
-To start application
+## To start application
 
 ```
 docker-compose up
@@ -12,6 +12,8 @@ php bin/console doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load
 
 php bin/console server:run
+
+php bin/phpunit
 ```
 
 Api/Documentation: http://127.0.0.1:8000/api/doc

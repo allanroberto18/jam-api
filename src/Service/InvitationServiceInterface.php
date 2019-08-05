@@ -3,19 +3,19 @@ declare(strict_types=1);
 
 namespace App\Service;
 
-use App\Entity\Invitantion;
+use App\Entity\Invitation;
 
 interface InvitationServiceInterface
 {
     /**
      * @param integer $userSenderId
-     * @return Invitantion[]
+     * @return Invitation[]
      */
     public function listInvitationsBySender(int $userSenderId): array;
 
     /**
      * @param integer $userInvitedId
-     * @return Invitantion[]
+     * @return Invitation[]
      */
     public function listInvitationsByInvited(int $userInvitedId): array;
 

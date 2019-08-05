@@ -6,12 +6,12 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Class Invitantion
+ * Class Invitation
  * @package App\Entity
  * @ORM\Entity(repositoryClass="App\Repository\InvitationRepository")
  * @ORM\Table(name="invitations")
  */
-class Invitantion
+class Invitation
 {
     /**
      * @var integer|null $id

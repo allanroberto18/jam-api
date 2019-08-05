@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Service;
 
-use App\Entity\Invitantion;
+use App\Entity\Invitation;
 use App\Repository\InvitationRepositoryInterface;
 
 class InvitationService implements InvitationServiceInterface

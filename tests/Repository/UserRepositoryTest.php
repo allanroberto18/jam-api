@@ -34,24 +34,17 @@ class UserRepositoryTest extends TestCase
         $this->assertEquals(sizeof($list), sizeof($listMocked));
     }
 
-    public function testInsertUser(): void
+    public function testGetAllUsersExceptedId(): void
     {
-        $entityMocked = $this->getEntityMocked(null);
+        $listMocked = [
+            1 => $this->getEntityMocked(2),
+            2 => $this->getEntityMocked(3)
+        ];
 
-        $this->repository
-            ->expects($this->any())
-            ->method('insertUser')
-            ->willReturn($entityMocked);
+        $this->repository->expects($this->any())->method('getUserExceptId')->willReturn($listMocked);
+        $list = $this->repository->getUserExceptId(1);
 
-        $entity = $this->repository->insertUser($entityMocked);
-
-        $this->assertEquals($entity->getUserName(), $entityMocked->getUserName());
-        $this->assertEquals($entity->getEmail(), $entityMocked->getEmail());
-    }
-
-    public function testInsertDuplicateUser(): void
-    {
-
+        $this->assertEquals(sizeof($list), sizeof($listMocked));
     }
 
     /**
