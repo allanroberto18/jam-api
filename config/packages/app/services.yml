@@ -8,3 +8,4 @@ services:
     class: App\Service\InvitationService
     arguments:
       - '@app.repositories.invitation'
+      - '@app.services.user'

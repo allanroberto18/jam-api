@@ -6,6 +6,7 @@ namespace App\Repository;
 use App\Entity\Invitation;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Common\Persistence\ManagerRegistry;
+use Hoa\Stream\Test\Unit\IStream\In;
 
 class InvitationRepository extends ServiceEntityRepository implements InvitationRepositoryInterface
 {
@@ -65,4 +66,21 @@ class InvitationRepository extends ServiceEntityRepository implements Invitation
 
         $this->getEntityManager()->flush();
     }
+
+    /**
+     * @param User $userSender
+     * @param User $userInvited
+     * @return Invitation
+     * @throws \Doctrine\ORM\ORMException
+     * @throws \Doctrine\ORM\OptimisticLockException
+     */
+    public function sendInvitation(User $userSender, User $userInvited): Invitation
+    {
+        $invitation = new Invitation($userSender, $userInvited);
+
+        $this->getEntityManager()->persist($invitation);
+        $this->getEntityManager()->flush(0);
+    }
+
+
 }

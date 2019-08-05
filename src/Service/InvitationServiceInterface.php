@@ -24,4 +24,11 @@ interface InvitationServiceInterface
      * @param integer $state
      */
     public function updateInvitationStatus(int $invitation, int $state): void;
+
+    /**
+     * @param integer $userSender
+     * @param integer $userInvited
+     * @return Invitation
+     */
+    public function sendInvitation(int $userSender, int $userInvited): Invitation;
 }

@@ -7,11 +7,15 @@ composer install
 
 yarn install
 
+# for create database (first execution)
 php bin/console doctrine:migrations:migrate
 
+# populate database (first execution)
 php bin/console doctrine:fixtures:load
 
 php bin/console server:run
+
+yarn encore dev --watch
 
 php bin/phpunit
 ```

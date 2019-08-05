@@ -25,4 +25,11 @@ interface InvitationRepositoryInterface
      * @throws \Exception
      */
     public function updateStateOfInvitation(int $invitation, int $state): void;
+
+    /**
+     * @param User $userSender
+     * @param User $userInvited
+     * @return Invitation
+     */
+    public function sendInvitation(User $userSender, User $userInvited): Invitation;
 }

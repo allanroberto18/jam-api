@@ -33,6 +33,12 @@ class InvitationController extends AbstractFOSRestController
      *     response=200,
      *     description="Returns all invitation sent",
      * )
+     * @SWG\Parameter(
+     *     name="userSenderId",
+     *     in="query",
+     *     type="integer",
+     *     description="Id of user sender"
+     * )
      * @SWG\Tag(name="invitations")
      * @return Response
      */
@@ -61,6 +67,12 @@ class InvitationController extends AbstractFOSRestController
      *     response=200,
      *     description="Returns all invitation received",
      * )
+     * @SWG\Parameter(
+     *     name="userInvitedId",
+     *     in="query",
+     *     type="integer",
+     *     description="Id of user invited"
+     * )
      * @SWG\Tag(name="invitations")
      * @return Response
      */
@@ -86,8 +98,20 @@ class InvitationController extends AbstractFOSRestController
      * @Route(path="/api/invitations/{id}", methods={"PUT"})
      * @param mixed $id
      * @SWG\Response(
-     *     response=200,
+     *     response=202,
      *     description="Update invitation state",
+     * )
+     * @SWG\Parameter(
+     *     name="id",
+     *     in="query",
+     *     type="integer",
+     *     description="Id of invitation"
+     * )
+     * @SWG\Parameter(
+     *     name="state",
+     *     in="body",
+     *     type="integer",
+     *     description="state of the invitation"
      * )
      * @SWG\Tag(name="invitations")
      * @return Response
@@ -107,5 +131,46 @@ class InvitationController extends AbstractFOSRestController
         }
 
         return new Response('', Response::HTTP_ACCEPTED);
+    }
+
+    /**
+     * @Route(path="/api/invitations/{id}", methods={"PUT"})
+     * @param mixed $id
+     * @SWG\Response(
+     *     response=202,
+     *     description="send new invitation",
+     * )
+     * @SWG\Parameter(
+     *     name="id",
+     *     in="query",
+     *     type="integer",
+     *     description="Id of user sender"
+     * )
+     * @SWG\Parameter(
+     *     name="userInvited",
+     *     in="body",
+     *     type="integer",
+     *     description="Id of user invited"
+     * )
+     * @SWG\Tag(name="invitations")
+     * @return Response
+     */
+    public function createInvitation($id, Request $request): Response
+    {
+        try {
+            $userInvited = (int) $request->get('userInvited');
+            $invitation = $this->service->sendInvitation((int) $id, $userInvited);
+        } catch (\Exception $exception) {
+            $msg = [
+                'code' => $exception->getCode(),
+                'message' => $exception->getMessage()
+            ];
+
+            return new Response(json_encode($msg), Response::HTTP_BAD_REQUEST);
+        }
+
+        $data = SerializerObjectHelper::serializeObject($invitation);
+
+        return new Response($data, Response::HTTP_CREATED);
     }
 }

@@ -11,13 +11,18 @@ class InvitationService implements InvitationServiceInterface
     /** @var InvitationRepositoryInterface $repository */
     private $repository;
 
+    /** @var UserServiceInterface $userService */
+    private $userService;
+
     /**
      * InvitationService constructor.
      * @param InvitationRepositoryInterface $repository
+     * @param UserServiceInterface $userService
      */
-    public function __construct(InvitationRepositoryInterface $repository)
+    public function __construct(InvitationRepositoryInterface $repository, UserServiceInterface $userService)
     {
         $this->repository = $repository;
+        $this->userService = $userService;
     }
 
     /**
@@ -47,4 +52,27 @@ class InvitationService implements InvitationServiceInterface
     {
         $this->repository->updateStateOfInvitation($invitation, $state);
     }
+
+    /**
+     * @param integer $userSender
+     * @param integer $userInvited
+     * @return Invitation
+     * @throws \Exception
+     */
+    public function sendInvitation(int $userSender, int $userInvited): Invitation
+    {
+        $sender = $this->userService->selectUserById($userSender);
+        if (empty($sender) === true) {
+            throw new \Exception('User Sender not found', 400);
+        }
+
+        $invited = $this->userService->selectUserById($userInvited);
+        if (empty($invited) === true) {
+            throw new \Exception('User Invited not found', 400);
+        }
+
+        return $this->repository->sendInvitation($sender, $invited);
+    }
+
+
 }

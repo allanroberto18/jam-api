@@ -1,27 +1,27 @@
 
 >php:S108Ÿ")Either remove or fill this block of code.(ëâ­ï
->php:S108¶")Either remove or fill this block of code.(ëâ­ï
-\php:S107¨"GThis function has 8 parameters, which is greater than the 7 authorized.(µèæ¿
-aphp:S107Ê"GThis function has 8 parameters, which is greater than the 7 authorized.(ä©å‡şÿÿÿÿ
-aphp:S107›"GThis function has 8 parameters, which is greater than the 7 authorized.(ˆ¥•Èÿÿÿÿÿ
-z	php:S1448d"eClass "TestCase" has 121 methods, which is greater than 20 authorized. Split it into smaller classes.(™á§
-j	php:S1142Û"OReduce the number of returns of this function 4, down to the maximum allowed 3.(Æ–ˆşüÿÿÿÿ
-j	php:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 44 to the 15 allowed.(ğ Ç
-j	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(óğ¢
-o	php:S3776›"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ô°Ñ¾ùÿÿÿÿ
-j	php:S3776Š	"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ö¤øÎ
-o	php:S3776ß"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(¨¦‹õøÿÿÿÿ
-j	php:S3776ö"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(¼ĞªŞ
-]	php:S1192Â"GDefine a constant instead of duplicating this literal "string" 4 times.(îáäÙ
-]	php:S1192­"GDefine a constant instead of duplicating this literal "result" 3 times.(¼‘ÿ»
-a	php:S1192±"FDefine a constant instead of duplicating this literal "false" 6 times.(£¿‚­ÿÿÿÿÿ
-]	php:S1192„"HDefine a constant instead of duplicating this literal "boolean" 5 times.(¼«çt
-a	php:S1117ê"KRename "$status" which has the same name as the field declared at line 242.(ÔÖóù
-f	php:S1117¥"PRename "$iniSettings" which has the same name as the field declared at line 222.(¹ú±
-_	php:S1117Ê"IRename "$data" which has the same name as the field declared at line 162.(¡õ”İ
-h	php:S1117Ë"MRename "$dataName" which has the same name as the field declared at line 167.(Ùƒ¼úÿÿÿÿ
-j	php:S1117Ì"TRename "$dependencyInput" which has the same name as the field declared at line 217.(™¨¬÷
 j	php:S1117¯"ORename "$testResult" which has the same name as the field declared at line 262.(İÉÍïıÿÿÿÿ
-a	php:S1117¥"KRename "$output" which has the same name as the field declared at line 267.(Ó±®í
+f	php:S1117¥"PRename "$iniSettings" which has the same name as the field declared at line 222.(¹ú±
+j	php:S1117Ì"TRename "$dependencyInput" which has the same name as the field declared at line 217.(™¨¬÷
+j	php:S3776ö"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(¼ĞªŞ
+]	php:S1192„"HDefine a constant instead of duplicating this literal "boolean" 5 times.(¼«çt
+o	php:S3776›"TRefactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ô°Ñ¾ùÿÿÿÿ
+a	php:S1117ê"KRename "$status" which has the same name as the field declared at line 242.(ÔÖóù
+h	php:S1117Ë"MRename "$dataName" which has the same name as the field declared at line 167.(Ùƒ¼úÿÿÿÿ
+]	php:S1192­"GDefine a constant instead of duplicating this literal "result" 3 times.(¼‘ÿ»
 h	php:S1117™"RRename "$backupGlobals" which has the same name as the field declared at line 109.(áë¿Æ
+j	php:S3776ú"TRefactor this function to reduce its Cognitive Complexity from 44 to the 15 allowed.(ğ Ç
+z	php:S1448d"eClass "TestCase" has 121 methods, which is greater than 20 authorized. Split it into smaller classes.(™á§
+\php:S107¨"GThis function has 8 parameters, which is greater than the 7 authorized.(µèæ¿
+a	php:S1192±"FDefine a constant instead of duplicating this literal "false" 6 times.(£¿‚­ÿÿÿÿÿ
 f	php:S1117Ñ"KRename "$result" which has the same name as the field declared at line 257.(¤¡¼ıÿÿÿÿ
+a	php:S1117¥"KRename "$output" which has the same name as the field declared at line 267.(Ó±®í
+>php:S108¶")Either remove or fill this block of code.(ëâ­ï
+aphp:S107Ê"GThis function has 8 parameters, which is greater than the 7 authorized.(ä©å‡şÿÿÿÿ
+j	php:S3776"TRefactor this function to reduce its Cognitive Complexity from 36 to the 15 allowed.(óğ¢
+o	php:S3776ß"TRefactor this function to reduce its Cognitive Complexity from 38 to the 15 allowed.(¨¦‹õøÿÿÿÿ
+]	php:S1192Â"GDefine a constant instead of duplicating this literal "string" 4 times.(îáäÙ
+j	php:S1142Û"OReduce the number of returns of this function 4, down to the maximum allowed 3.(Æ–ˆşüÿÿÿÿ
+_	php:S1117Ê"IRename "$data" which has the same name as the field declared at line 162.(¡õ”İ
+aphp:S107›"GThis function has 8 parameters, which is greater than the 7 authorized.(ˆ¥•Èÿÿÿÿÿ
+j	php:S3776Š	"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(Ö¤øÎ
